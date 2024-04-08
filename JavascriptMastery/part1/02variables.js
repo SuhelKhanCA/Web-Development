@@ -1,4 +1,4 @@
-"use strict";
+"use strict"; // to restrict variable declaration
 // intro to variables
 
 // variables can store some information
