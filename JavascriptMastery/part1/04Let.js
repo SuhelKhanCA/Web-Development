@@ -1,4 +1,4 @@
-// let keyword 
+// let keyword --------> 'let' is better for betttere scoping rules
 // declare variable with let keyword 
 
 let firstName = "harshit";
