@@ -21,7 +21,7 @@ console.log(myVariable);
 myVariable = "harshit";
 console.log(myVariable, typeof myVariable);
 console.log(typeof null);
-bug , error 
+// bug , error 
 
 BigInt
 let myNumber = BigInt(12);
