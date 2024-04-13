@@ -28,3 +28,13 @@ console.log(typeof myStr);
 let age2 = "18";
 age2 = Number(age2);
 console.log(typeof age2);
+
+let un;
+console.log(typeof un);
+
+var unn; // Ok
+// const unnn; // Error : Missing initializer in const declaration
+
+let myVarr = null;
+console.log(myVarr);
+console.log(typeof myVarr);
