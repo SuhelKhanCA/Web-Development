@@ -23,9 +23,11 @@ console.log(myVariable, typeof myVariable);
 console.log(typeof null);
 // bug , error 
 
-BigInt
-let myNumber = BigInt(12);
-let sameMyNumber = 123n;
+// BigInt
+let myNumber = BigInt(12); // one way
+let sameMyNumber = 123n; // other way to declare
 console.log(myNumber);
 console.log(Number.MAX_SAFE_INTEGER);
 console.log(myNumber+ sameMyNumber);
+
+// To add BigInt and number use explicit cast
