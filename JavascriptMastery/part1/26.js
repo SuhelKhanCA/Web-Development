@@ -2,15 +2,15 @@
 // reference type 
 // how to create arrays
 
-// ordered collection of items 
+// ordered collection of items - mutable
 
-// let fruits = ["apple", "mango", "grapes"];
-// let numbers = [1,2,3,4];
-// let mixed = [1,2,2.3, "string", null, undefined];
-// console.log(mixed);
-// console.log(numbers);
-// console.log(fruits[2]);
 let fruits = ["apple", "mango", "grapes"];
+let numbers = [1,2,3,4];
+let mixed = [1,2,2.3, "string", null, undefined]; // Like a List
+console.log(mixed);
+console.log(numbers);
+console.log(fruits[2]);
+// let fruits = ["apple", "mango", "grapes"];
 let obj = {}; // object literal
 // console.log(fruits);
 // fruits[1] = "banana";
