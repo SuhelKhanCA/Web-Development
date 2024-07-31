@@ -2,19 +2,26 @@
 
  const numbers = [4,2,5,8];
 
-// function myFunc(number, index){
-//     console.log(`index is ${index} number is ${number}`);
-// }
-// myFunc(numbers[0], 0);
+function myFunc(number, index){
+    console.log(`index is ${index} number is ${number}`);
+}
 
-// numbers.forEach(function(number,index){
-//     console.log(`index is ${index} number is ${number}`);
-// });
+
+for (const index in numbers) {
+   myFunc(numbers[index], index);
+}
+
+console.log("------Noww using forEach()----");
+numbers.forEach(function(number,index){
+    console.log(`index is ${index} number is ${number}`);
+});
 
 // numbers.forEach(function(number, index){
 //     console.log(number*3, index);
 // });
 
+
+console.log("-----Iterating array of objects---------");
 const users = [
     {firstName: "harshit", age: 23},
     {firstName: "mohit", age: 21},
