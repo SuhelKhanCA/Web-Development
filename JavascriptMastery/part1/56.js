@@ -5,6 +5,7 @@
 // function myFunc(number, index){
 //     console.log(`index is ${index} number is ${number}`);
 // }
+// myFunc(numbers[0], 0);
 
 // numbers.forEach(function(number,index){
 //     console.log(`index is ${index} number is ${number}`);
@@ -12,7 +13,7 @@
 
 // numbers.forEach(function(number, index){
 //     console.log(number*3, index);
-// })
+// });
 
 const users = [
     {firstName: "harshit", age: 23},
@@ -21,13 +22,13 @@ const users = [
     {firstName: "garima", age: 20},
 ]
 
-// users.forEach(function(user){
-//     console.log(user.firstName);
-// });
+users.forEach(function(user){
+    console.log(user.firstName);
+});
 
-// users.forEach((user, index)=>{
-//     console.log(user.firstName, index);
-// })
+users.forEach((user, index) => {
+    console.log(user.firstName, index);
+});
 
 // for(let user of users){
 //     console.log(user.firstName);
