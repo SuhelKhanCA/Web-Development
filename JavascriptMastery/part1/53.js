@@ -15,7 +15,7 @@ const person = {
 // }
 
 
-function printDetails({firstName, gender, age}){
+function printDetails({firstName, gender, age}){ // object param destructuring
     console.log(firstName);
     console.log(gender);
     console.log(age);
