@@ -1,4 +1,5 @@
 // functions inside function 
+
 function app(){
     const myFunc = () =>{
         console.log("hello from myFunc")
