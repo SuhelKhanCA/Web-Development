@@ -6,9 +6,10 @@ function myFunc2(name){
 }
 
 function myFunc(callback){
-    console.log("hello there I am a func and I can..")
     callback("harshit");
+    console.log("hello there I am a func and I can..", )
+    
 }
 
 
-myFunc(myFunc2);
+myFunc(myFunc2); // passing a function as an argument
