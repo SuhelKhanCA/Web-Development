@@ -6,7 +6,7 @@ const key2 = "objkey2";
 const value1 = "myvalue1";
 const value2 = "myvalue2";
 
-// const obj = {
+// const obj = { // hard code
 //     objkey1 : "myvalue1",
 //     objkey2 : "myvalue2",
 // }
