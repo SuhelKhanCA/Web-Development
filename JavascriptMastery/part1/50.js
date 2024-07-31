@@ -4,12 +4,12 @@
 // let and const are block scope
 // var is function scope 
 
-// if(true){
-//     var firstName = "harshit";
-//     console.log(firstName);
-// }
+if(true){
+    var firstName = "harshit";
+    console.log(firstName);
+}
 
-// console.log(firstName);
+console.log(firstName);
 
 function myApp(){
     if(true){
