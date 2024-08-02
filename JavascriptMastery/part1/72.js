@@ -1,5 +1,5 @@
 console.log(window);
-// "use strict";
+// "use strict"; --> if used give undefined
 function myFunc(){
     
     console.log(this);
