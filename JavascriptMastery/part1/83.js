@@ -2,7 +2,7 @@
 // 1.) this = {}
 // 2.) return {} 
 //
-
+// 3)
 // __proto__ 
 // // official ecmascript document
 // [[prototype]]
