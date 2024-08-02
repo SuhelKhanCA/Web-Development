@@ -1,7 +1,7 @@
-// console.log(window);
+console.log(window);
 // "use strict";
-// function myFunc(){
+function myFunc(){
     
-//     console.log(this);
-// }
-// myFunc();
+    console.log(this);
+}
+myFunc();
