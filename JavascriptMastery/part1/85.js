@@ -7,3 +7,7 @@ console.log(numbers);
 function hello(){
     console.log("hello");
 }
+
+hello.prototype = []; // of no use
+
+console.log(hello.prototype);
