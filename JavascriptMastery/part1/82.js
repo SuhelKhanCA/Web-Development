@@ -10,7 +10,7 @@
 //     }
 // }
 function createUser(firstName, lastName, email, age, address){
-    const user = Object.create(createUser.prototype);// {}
+    const user = Object.create(createUser.prototype);// {} --> more efficient
     user.firstName = firstName;
     user.lastName = lastName;
     user.email = email;
