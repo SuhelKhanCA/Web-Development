@@ -8,4 +8,4 @@ const user  = {
 
 
 console.log(user?.firstName);
-console.log(user?.address?.houseNumber);
+console.log(user?.address?.houseNumber); // ? --> Error throw krne nhi dega
