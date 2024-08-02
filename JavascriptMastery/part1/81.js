@@ -15,13 +15,13 @@ function hello(){
 // function provides more usefull properties.
 
 
-// console.log(hello.prototype); // {}
+// console.log(hello.prototype); // {} muft me milta h
 
-// only functions provide prototype property
+// only functions provide 'prototype' property
 
 // hello.prototype.abc = "abc";
 // hello.prototype.xyz = "xyz";
-// hello.prototype.sing = function(){
-//     return "lalalla";
-// };
-// console.log(hello.prototype.sing());
+hello.prototype.sing = function(){
+    return "lalalla";
+};
+console.log(hello.prototype.sing());
