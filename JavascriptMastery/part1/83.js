@@ -2,9 +2,9 @@
 // 1.) this = {}
 // 2.) return {} 
 //
-// 3)
+// 3) chain bhi krta h apne aap
 // __proto__ 
-// // official ecmascript document
+// official ecmascript document
 // [[prototype]]
 
 // constructor function 
