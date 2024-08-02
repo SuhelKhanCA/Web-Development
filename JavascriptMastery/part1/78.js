@@ -1,4 +1,4 @@
-const userMethods = {
+const userMethods = { // memory efficient
     about : function(){
         return `${this.firstName} is ${this.age} years old.`;
     },
