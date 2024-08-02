@@ -11,7 +11,8 @@ const user2 = {
     
 }
 
-// apply
-// about.apply(user1, ["guitar", "bach"]);
-// const func = about.bind(user2, "guitar", "bach");
-// func();
+
+// apply vs call --> apply take args as an array
+about.apply(user1, ["guitar", "bach"]);
+const func = about.bind(user2, "guitar", "bach"); // bind returns a fxn
+func();
